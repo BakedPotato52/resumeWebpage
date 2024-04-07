@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+
     <title>Resume Webpage</title>
 </head>
 
 <body>
-    <div class="flex flex-col min-h-[100dvh]">
+
+    <div class="flex flex-col min-h-[100dvh]  bg-sky-200  font-sans">
         <header class="px-4 lg:px-6 h-14 flex items-center">
+
             <nav class="ml-auto flex gap-4 sm:gap-6">
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-                    Features
+                <a class="text-sm font-medium hover:underline underline-offset-4 transition delay-300 duration-300 ease-in-out"
+                    href="#">
+                    Carrier Objective
                 </a>
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-                    About
-                </a>
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+                <a class="text-sm font-medium hover:underline underline-offset-4 transition delay-300 duration-300 ease-in-out"
+                    href="contact.html">
                     Contact
                 </a>
             </nav>
@@ -28,79 +29,98 @@
             <section class="mx-auto max-w-5xl px-4 md:px-6">
                 <div class="space-y-4 text-center">
                     <div class="space-y-2">
-                        <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Kanak Acharjee</h1>
+                        <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+                            <img class="float-left rounded-full hover:float-right w-14 h-14  " src="135026871.png"
+                                alt="Profile Picture" />
+                            Kanak Acharjee
+                        </h1>
                         <p class="text-gray-500 dark:text-gray-400">Software Developer</p>
                     </div>
                     <div class="inline-flex flex-col md:flex-row gap-2 md:gap-4 sm:gap-0 md:space-x-4">
-                        <a class="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                            href="www.kanakacharya52@gmail.com">
-                            Email
+                        <a class="inline-flex h-9 items-center justify-center rounded-md border  border-gray-200 bg-transparent px-4 text-sm font-medium shadow-sm  hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50  dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 transition delay-300 duration-300 ease-in-out"
+                            href="https://www.instagram.com/kanakacharya2/">
+
+                            Instagram
                         </a>
-                        <a class="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                        <a class="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-slate-400 px-4 text-sm font-medium shadow-sm  hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 transition delay-300 duration-300 ease-in-out"
                             href="https://github.com/BakedPotato52">
                             GitHub
                         </a>
-                        <a class="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                        <a class="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 bg-transparent px-4 text-sm font-medium shadow-sm  hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 transition delay-300 duration-300 ease-in-out"
                             href="https://www.linkedin.com/in/kanak-acharjee-b59a96240/?originalSubdomain=in">
                             LinkedIn
                         </a>
                     </div>
                 </div>
             </section>
+
             <section class="mx-auto max-w-5xl px-4 md:px-6">
                 <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     <div class="space-y-2">
                         <h3 class="text-xl font-bold">Skills</h3>
                         <ul
-                            class="grid gap-2 text-sm list-disc list-inside text-gray-500 md:text-base lg:text-sm/relaxed dark:text-gray-400">
+                            class="grid gap-2 text-sm list-disc list-inside font-medium text-black-500 md:text-base lg:text-sm/relaxed dark:text-gray-400">
                             <li>JavaScript</li>
                             <li>React</li>
                             <li>Python</li>
                             <li>Node.js</li>
+                            <li>Tailwind CSS</li>
                             <li>HTML/CSS</li>
                         </ul>
                     </div>
+                    <div class="space-y-4 items-start">
+                        <h3 class="text-xl font-bold">Projects</h3>
+                        <div class="inline-grid grid-col md:grid-row gap-2 md:gap-4 sm:gap-0 md:space-x-4">
+                            <a class="inline-flex  items-center rounded-md border border-gray-200  bg-transparent px-4 text-sm font-medium shadow-sm  hover:bg-gray-500 hover:text-black-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 transition delay-150 duration-300 ease-in-out"
+                                href="https://bakedpotato52.github.io/Weather/">
+                                Weather Forecast - Realtime Weather Data through API integration
+
+                            </a>
+                            <a class="inline-flex  items-center rounded-md border border-gray-200  bg-transparent px-4 text-sm font-medium shadow-sm  hover:bg-gray-400 hover:text-black-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 transition delay-150 duration-300 ease-in-out"
+                                href="https://github.com/BakedPotato52/watchList">
+                                WatchList - React Web Application for Video Hosting
+                            </a>
+
+                        </div>
+                    </div>
+
                     <div class="space-y-2">
                         <h3 class="text-xl font-bold">Education</h3>
                         <ul
-                            class="grid gap-2 text-sm list-disc list-inside text-gray-500 md:text-base lg:text-sm/relaxed dark:text-gray-400">
+                            class="grid gap-2 text-sm list-disc list-inside font-medium text-black-500 md:text-base lg:text-sm/relaxed dark:text-gray-400">
                             <li>B.Tech in Computer Science - ICFAI University, Tripura</li>
                             <li>Diploma in Computer Science & Technology - NIELIT, Agartala</li>
                         </ul>
                     </div>
-                    <div class="space-y-2">
-                        <h3 class="text-xl font-bold">Projects</h3>
-                        <ul
-                            class="grid gap-2 text-sm list-disc list-inside text-gray-500 md:text-base lg:text-sm/relaxed dark:text-gray-400">
-                            <li>
-                                <a href="https://bakedpotato52.github.io/Weather/">
-                                    Weather Forecast - Realtime Weather Data through API integration
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/BakedPotato52/watchList">
-                                    WatchList - React Web Application for Video Hosting
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
             </section>
 
         </main>
-        </main>
+
+
+
         <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-            <p class="text-xs text-gray-500 dark:text-gray-400">© 2024 Acme Inc. All rights reserved.</p>
+
             <nav class="sm:ml-auto flex gap-4 sm:gap-6">
-                <a class="text-xs hover:underline underline-offset-4" href="#">
-                    Terms of Service
+                <a class="text-xs hover:underline underline-offset-4" href="contact.html">
+                    Contact
                 </a>
-                <a class="text-xs hover:underline underline-offset-4" href="#">
-                    Privacy
-                </a>
+                <button class="text-xs hover:animate-bounce underline-offset-4" onclick="Resume()">
+                    Download Resume
+                </button>
             </nav>
         </footer>
+        <script>
+            function Resume() {
+                var URL = 'resume.pdf';
+                var link = document.createElement('a');
+                link.href = URL;
+                link.download = 'resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        </script>
     </div>
-</body>
 
 </html>
